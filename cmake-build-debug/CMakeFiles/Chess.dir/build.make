@@ -57,38 +57,38 @@ include CMakeFiles/Chess.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chess.dir/flags.make
 
-CMakeFiles/Chess.dir/main.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/main.cpp.o -c /mnt/d/Programming/Chess/main.cpp
+CMakeFiles/Chess.dir/Chess_main.cpp.o: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/Chess_main.cpp.o: ../Chess_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/Chess_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/Chess_main.cpp.o -c /mnt/d/Programming/Chess/Chess_main.cpp
 
-CMakeFiles/Chess.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programming/Chess/main.cpp > CMakeFiles/Chess.dir/main.cpp.i
+CMakeFiles/Chess.dir/Chess_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Chess_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programming/Chess/Chess_main.cpp > CMakeFiles/Chess.dir/Chess_main.cpp.i
 
-CMakeFiles/Chess.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programming/Chess/main.cpp -o CMakeFiles/Chess.dir/main.cpp.s
+CMakeFiles/Chess.dir/Chess_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Chess_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programming/Chess/Chess_main.cpp -o CMakeFiles/Chess.dir/Chess_main.cpp.s
 
-CMakeFiles/Chess.dir/main.cpp.o.requires:
+CMakeFiles/Chess.dir/Chess_main.cpp.o.requires:
 
-.PHONY : CMakeFiles/Chess.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Chess.dir/Chess_main.cpp.o.requires
 
-CMakeFiles/Chess.dir/main.cpp.o.provides: CMakeFiles/Chess.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Chess.dir/main.cpp.o.provides
+CMakeFiles/Chess.dir/Chess_main.cpp.o.provides: CMakeFiles/Chess.dir/Chess_main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_main.cpp.o.provides.build
+.PHONY : CMakeFiles/Chess.dir/Chess_main.cpp.o.provides
 
-CMakeFiles/Chess.dir/main.cpp.o.provides.build: CMakeFiles/Chess.dir/main.cpp.o
+CMakeFiles/Chess.dir/Chess_main.cpp.o.provides.build: CMakeFiles/Chess.dir/Chess_main.cpp.o
 
 
 # Object files for target Chess
 Chess_OBJECTS = \
-"CMakeFiles/Chess.dir/main.cpp.o"
+"CMakeFiles/Chess.dir/Chess_main.cpp.o"
 
 # External object files for target Chess
 Chess_EXTERNAL_OBJECTS =
 
-Chess: CMakeFiles/Chess.dir/main.cpp.o
+Chess: CMakeFiles/Chess.dir/Chess_main.cpp.o
 Chess: CMakeFiles/Chess.dir/build.make
 Chess: CMakeFiles/Chess.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Chess"
@@ -99,7 +99,7 @@ CMakeFiles/Chess.dir/build: Chess
 
 .PHONY : CMakeFiles/Chess.dir/build
 
-CMakeFiles/Chess.dir/requires: CMakeFiles/Chess.dir/main.cpp.o.requires
+CMakeFiles/Chess.dir/requires: CMakeFiles/Chess.dir/Chess_main.cpp.o.requires
 
 .PHONY : CMakeFiles/Chess.dir/requires
 

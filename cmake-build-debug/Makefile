@@ -123,32 +123,32 @@ Chess/fast:
 	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/build
 .PHONY : Chess/fast
 
-main.o: main.cpp.o
+Chess_main.o: Chess_main.cpp.o
 
-.PHONY : main.o
+.PHONY : Chess_main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/main.cpp.o
-.PHONY : main.cpp.o
+Chess_main.cpp.o:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_main.cpp.o
+.PHONY : Chess_main.cpp.o
 
-main.i: main.cpp.i
+Chess_main.i: Chess_main.cpp.i
 
-.PHONY : main.i
+.PHONY : Chess_main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/main.cpp.i
-.PHONY : main.cpp.i
+Chess_main.cpp.i:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_main.cpp.i
+.PHONY : Chess_main.cpp.i
 
-main.s: main.cpp.s
+Chess_main.s: Chess_main.cpp.s
 
-.PHONY : main.s
+.PHONY : Chess_main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/main.cpp.s
-.PHONY : main.cpp.s
+Chess_main.cpp.s:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_main.cpp.s
+.PHONY : Chess_main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Chess"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Chess_main.o"
+	@echo "... Chess_main.i"
+	@echo "... Chess_main.s"
 .PHONY : help
 
 
