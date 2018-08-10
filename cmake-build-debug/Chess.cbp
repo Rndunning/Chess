@@ -90,6 +90,9 @@
 		<Unit filename="/mnt/d/Programming/Chess/Chess_main.h">
 			<Option target="Chess"/>
 		</Unit>
+		<Unit filename="/mnt/d/Programming/Chess/class_piece.cpp">
+			<Option target="Chess"/>
+		</Unit>
 		<Unit filename="/mnt/d/Programming/Chess/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

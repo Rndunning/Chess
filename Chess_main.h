@@ -4,9 +4,11 @@
 
 #ifndef CHESS_CHESS_MAIN_H
 #define CHESS_CHESS_MAIN_H
-
 #endif //CHESS_CHESS_MAIN_H
 
+#ifndef CHESS_CLASS_PIECE_CPP
+#define CHESS_CLASS_PIECE_CPP
+#endif
 enum Board_space
 {
     A8 = 56, B8 = 57, C8 = 58, D8 = 59, E8 = 60, F8 = 61, G8 = 62, H8 = 63,

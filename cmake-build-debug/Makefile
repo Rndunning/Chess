@@ -150,6 +150,33 @@ Chess_main.cpp.s:
 	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_main.cpp.s
 .PHONY : Chess_main.cpp.s
 
+class_piece.o: class_piece.cpp.o
+
+.PHONY : class_piece.o
+
+# target to build an object file
+class_piece.cpp.o:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/class_piece.cpp.o
+.PHONY : class_piece.cpp.o
+
+class_piece.i: class_piece.cpp.i
+
+.PHONY : class_piece.i
+
+# target to preprocess a source file
+class_piece.cpp.i:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/class_piece.cpp.i
+.PHONY : class_piece.cpp.i
+
+class_piece.s: class_piece.cpp.s
+
+.PHONY : class_piece.s
+
+# target to generate assembly for a file
+class_piece.cpp.s:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/class_piece.cpp.s
+.PHONY : class_piece.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... Chess_main.o"
 	@echo "... Chess_main.i"
 	@echo "... Chess_main.s"
+	@echo "... class_piece.o"
+	@echo "... class_piece.i"
+	@echo "... class_piece.s"
 .PHONY : help
 
 

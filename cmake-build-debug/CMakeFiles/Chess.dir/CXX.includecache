@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Programming/Chess/main.cpp
+/mnt/d/Programming/Chess/Chess_main.cpp
 iostream
 -
+string.h
+-
+Chess_main.h
+/mnt/d/Programming/Chess/Chess_main.h
+
+/mnt/d/Programming/Chess/Chess_main.h
+
+/mnt/d/Programming/Chess/class_piece.cpp
 
