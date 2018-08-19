@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Programming/Chess
+CMAKE_SOURCE_DIR = /mnt/d/Programs/Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Programming/Chess/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Programs/Chess/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles /mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ Chess: cmake_check_build_system
 Chess/fast:
 	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/build
 .PHONY : Chess/fast
+
+Chess_class_move.o: Chess_class_move.cpp.o
+
+.PHONY : Chess_class_move.o
+
+# target to build an object file
+Chess_class_move.cpp.o:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_move.cpp.o
+.PHONY : Chess_class_move.cpp.o
+
+Chess_class_move.i: Chess_class_move.cpp.i
+
+.PHONY : Chess_class_move.i
+
+# target to preprocess a source file
+Chess_class_move.cpp.i:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_move.cpp.i
+.PHONY : Chess_class_move.cpp.i
+
+Chess_class_move.s: Chess_class_move.cpp.s
+
+.PHONY : Chess_class_move.s
+
+# target to generate assembly for a file
+Chess_class_move.cpp.s:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_move.cpp.s
+.PHONY : Chess_class_move.cpp.s
 
 Chess_main.o: Chess_main.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Chess"
 	@echo "... edit_cache"
+	@echo "... Chess_class_move.o"
+	@echo "... Chess_class_move.i"
+	@echo "... Chess_class_move.s"
 	@echo "... Chess_main.o"
 	@echo "... Chess_main.i"
 	@echo "... Chess_main.s"

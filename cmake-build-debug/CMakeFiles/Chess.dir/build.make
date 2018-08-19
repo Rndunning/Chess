@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Programming/Chess
+CMAKE_SOURCE_DIR = /mnt/d/Programs/Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Programming/Chess/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Programs/Chess/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Chess.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Chess.dir/flags.make
 
 CMakeFiles/Chess.dir/Chess_main.cpp.o: CMakeFiles/Chess.dir/flags.make
 CMakeFiles/Chess.dir/Chess_main.cpp.o: ../Chess_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/Chess_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/Chess_main.cpp.o -c /mnt/d/Programming/Chess/Chess_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/Chess_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/Chess_main.cpp.o -c /mnt/d/Programs/Chess/Chess_main.cpp
 
 CMakeFiles/Chess.dir/Chess_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Chess_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programming/Chess/Chess_main.cpp > CMakeFiles/Chess.dir/Chess_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programs/Chess/Chess_main.cpp > CMakeFiles/Chess.dir/Chess_main.cpp.i
 
 CMakeFiles/Chess.dir/Chess_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Chess_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programming/Chess/Chess_main.cpp -o CMakeFiles/Chess.dir/Chess_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programs/Chess/Chess_main.cpp -o CMakeFiles/Chess.dir/Chess_main.cpp.s
 
 CMakeFiles/Chess.dir/Chess_main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Chess.dir/Chess_main.cpp.o.provides.build: CMakeFiles/Chess.dir/Chess
 
 CMakeFiles/Chess.dir/class_piece.cpp.o: CMakeFiles/Chess.dir/flags.make
 CMakeFiles/Chess.dir/class_piece.cpp.o: ../class_piece.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/class_piece.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/class_piece.cpp.o -c /mnt/d/Programming/Chess/class_piece.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/class_piece.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/class_piece.cpp.o -c /mnt/d/Programs/Chess/class_piece.cpp
 
 CMakeFiles/Chess.dir/class_piece.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/class_piece.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programming/Chess/class_piece.cpp > CMakeFiles/Chess.dir/class_piece.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programs/Chess/class_piece.cpp > CMakeFiles/Chess.dir/class_piece.cpp.i
 
 CMakeFiles/Chess.dir/class_piece.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/class_piece.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programming/Chess/class_piece.cpp -o CMakeFiles/Chess.dir/class_piece.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programs/Chess/class_piece.cpp -o CMakeFiles/Chess.dir/class_piece.cpp.s
 
 CMakeFiles/Chess.dir/class_piece.cpp.o.requires:
 
@@ -105,19 +105,45 @@ CMakeFiles/Chess.dir/class_piece.cpp.o.provides: CMakeFiles/Chess.dir/class_piec
 CMakeFiles/Chess.dir/class_piece.cpp.o.provides.build: CMakeFiles/Chess.dir/class_piece.cpp.o
 
 
+CMakeFiles/Chess.dir/Chess_class_move.cpp.o: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/Chess_class_move.cpp.o: ../Chess_class_move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chess.dir/Chess_class_move.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chess.dir/Chess_class_move.cpp.o -c /mnt/d/Programs/Chess/Chess_class_move.cpp
+
+CMakeFiles/Chess.dir/Chess_class_move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Chess_class_move.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Programs/Chess/Chess_class_move.cpp > CMakeFiles/Chess.dir/Chess_class_move.cpp.i
+
+CMakeFiles/Chess.dir/Chess_class_move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Chess_class_move.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Programs/Chess/Chess_class_move.cpp -o CMakeFiles/Chess.dir/Chess_class_move.cpp.s
+
+CMakeFiles/Chess.dir/Chess_class_move.cpp.o.requires:
+
+.PHONY : CMakeFiles/Chess.dir/Chess_class_move.cpp.o.requires
+
+CMakeFiles/Chess.dir/Chess_class_move.cpp.o.provides: CMakeFiles/Chess.dir/Chess_class_move.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_move.cpp.o.provides.build
+.PHONY : CMakeFiles/Chess.dir/Chess_class_move.cpp.o.provides
+
+CMakeFiles/Chess.dir/Chess_class_move.cpp.o.provides.build: CMakeFiles/Chess.dir/Chess_class_move.cpp.o
+
+
 # Object files for target Chess
 Chess_OBJECTS = \
 "CMakeFiles/Chess.dir/Chess_main.cpp.o" \
-"CMakeFiles/Chess.dir/class_piece.cpp.o"
+"CMakeFiles/Chess.dir/class_piece.cpp.o" \
+"CMakeFiles/Chess.dir/Chess_class_move.cpp.o"
 
 # External object files for target Chess
 Chess_EXTERNAL_OBJECTS =
 
 Chess: CMakeFiles/Chess.dir/Chess_main.cpp.o
 Chess: CMakeFiles/Chess.dir/class_piece.cpp.o
+Chess: CMakeFiles/Chess.dir/Chess_class_move.cpp.o
 Chess: CMakeFiles/Chess.dir/build.make
 Chess: CMakeFiles/Chess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Chess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Chess"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chess.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +153,7 @@ CMakeFiles/Chess.dir/build: Chess
 
 CMakeFiles/Chess.dir/requires: CMakeFiles/Chess.dir/Chess_main.cpp.o.requires
 CMakeFiles/Chess.dir/requires: CMakeFiles/Chess.dir/class_piece.cpp.o.requires
+CMakeFiles/Chess.dir/requires: CMakeFiles/Chess.dir/Chess_class_move.cpp.o.requires
 
 .PHONY : CMakeFiles/Chess.dir/requires
 
@@ -135,6 +162,6 @@ CMakeFiles/Chess.dir/clean:
 .PHONY : CMakeFiles/Chess.dir/clean
 
 CMakeFiles/Chess.dir/depend:
-	cd /mnt/d/Programming/Chess/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Programming/Chess /mnt/d/Programming/Chess /mnt/d/Programming/Chess/cmake-build-debug /mnt/d/Programming/Chess/cmake-build-debug /mnt/d/Programming/Chess/cmake-build-debug/CMakeFiles/Chess.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Programs/Chess/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Programs/Chess /mnt/d/Programs/Chess /mnt/d/Programs/Chess/cmake-build-debug /mnt/d/Programs/Chess/cmake-build-debug /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles/Chess.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Chess.dir/depend
 

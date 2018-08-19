@@ -6,15 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Programming/Chess/Chess_main.cpp
+/mnt/d/Programs/Chess/Chess_class_move.cpp
+Chess_class_move.h
+/mnt/d/Programs/Chess/Chess_class_move.h
+
+/mnt/d/Programs/Chess/Chess_class_move.h
+
+/mnt/d/Programs/Chess/Chess_main.cpp
 iostream
 -
-string.h
+string
+-
+array
 -
 Chess_main.h
-/mnt/d/Programming/Chess/Chess_main.h
+/mnt/d/Programs/Chess/Chess_main.h
+class_piece.cpp
+/mnt/d/Programs/Chess/class_piece.cpp
 
-/mnt/d/Programming/Chess/Chess_main.h
+/mnt/d/Programs/Chess/Chess_main.h
 
-/mnt/d/Programming/Chess/class_piece.cpp
+/mnt/d/Programs/Chess/class_piece.cpp
 
