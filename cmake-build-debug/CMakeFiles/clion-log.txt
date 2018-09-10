@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/Programs/Chess
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/a/Programs/C++/Chess
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/d/Programs/Chess/cmake-build-debug
+-- Build files have been written to: /mnt/a/Programs/C++/Chess/cmake-build-debug

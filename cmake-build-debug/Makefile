@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Programs/Chess
+CMAKE_SOURCE_DIR = /mnt/a/Programs/C++/Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Programs/Chess/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/a/Programs/C++/Chess/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/a/Programs/C++/Chess/cmake-build-debug/CMakeFiles /mnt/a/Programs/C++/Chess/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Programs/Chess/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/a/Programs/C++/Chess/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ Chess/fast:
 	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/build
 .PHONY : Chess/fast
 
+Chess_class_board.o: Chess_class_board.cpp.o
+
+.PHONY : Chess_class_board.o
+
+# target to build an object file
+Chess_class_board.cpp.o:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_board.cpp.o
+.PHONY : Chess_class_board.cpp.o
+
+Chess_class_board.i: Chess_class_board.cpp.i
+
+.PHONY : Chess_class_board.i
+
+# target to preprocess a source file
+Chess_class_board.cpp.i:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_board.cpp.i
+.PHONY : Chess_class_board.cpp.i
+
+Chess_class_board.s: Chess_class_board.cpp.s
+
+.PHONY : Chess_class_board.s
+
+# target to generate assembly for a file
+Chess_class_board.cpp.s:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_board.cpp.s
+.PHONY : Chess_class_board.cpp.s
+
 Chess_class_move.o: Chess_class_move.cpp.o
 
 .PHONY : Chess_class_move.o
@@ -149,6 +176,33 @@ Chess_class_move.s: Chess_class_move.cpp.s
 Chess_class_move.cpp.s:
 	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_move.cpp.s
 .PHONY : Chess_class_move.cpp.s
+
+Chess_class_piece.o: Chess_class_piece.cpp.o
+
+.PHONY : Chess_class_piece.o
+
+# target to build an object file
+Chess_class_piece.cpp.o:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_piece.cpp.o
+.PHONY : Chess_class_piece.cpp.o
+
+Chess_class_piece.i: Chess_class_piece.cpp.i
+
+.PHONY : Chess_class_piece.i
+
+# target to preprocess a source file
+Chess_class_piece.cpp.i:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_piece.cpp.i
+.PHONY : Chess_class_piece.cpp.i
+
+Chess_class_piece.s: Chess_class_piece.cpp.s
+
+.PHONY : Chess_class_piece.s
+
+# target to generate assembly for a file
+Chess_class_piece.cpp.s:
+	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_class_piece.cpp.s
+.PHONY : Chess_class_piece.cpp.s
 
 Chess_main.o: Chess_main.cpp.o
 
@@ -177,33 +231,6 @@ Chess_main.cpp.s:
 	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/Chess_main.cpp.s
 .PHONY : Chess_main.cpp.s
 
-class_piece.o: class_piece.cpp.o
-
-.PHONY : class_piece.o
-
-# target to build an object file
-class_piece.cpp.o:
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/class_piece.cpp.o
-.PHONY : class_piece.cpp.o
-
-class_piece.i: class_piece.cpp.i
-
-.PHONY : class_piece.i
-
-# target to preprocess a source file
-class_piece.cpp.i:
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/class_piece.cpp.i
-.PHONY : class_piece.cpp.i
-
-class_piece.s: class_piece.cpp.s
-
-.PHONY : class_piece.s
-
-# target to generate assembly for a file
-class_piece.cpp.s:
-	$(MAKE) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/class_piece.cpp.s
-.PHONY : class_piece.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Chess"
 	@echo "... edit_cache"
+	@echo "... Chess_class_board.o"
+	@echo "... Chess_class_board.i"
+	@echo "... Chess_class_board.s"
 	@echo "... Chess_class_move.o"
 	@echo "... Chess_class_move.i"
 	@echo "... Chess_class_move.s"
+	@echo "... Chess_class_piece.o"
+	@echo "... Chess_class_piece.i"
+	@echo "... Chess_class_piece.s"
 	@echo "... Chess_main.o"
 	@echo "... Chess_main.i"
 	@echo "... Chess_main.s"
-	@echo "... class_piece.o"
-	@echo "... class_piece.i"
-	@echo "... class_piece.s"
 .PHONY : help
 
 
