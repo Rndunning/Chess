@@ -1,17 +1,11 @@
 //
 // Created by Richard on 9/1/2018.
 //
-#include <iostream>
-#include "Chess_class_piece.cpp"
+
+#ifndef CHESS_CLASS_BOARD_H
+#define CHESS_CLASS_BOARD_H
 #include "Chess_class_board.h"
-    public:
-        void print_row(int first_value){
-
-        }
-        void display_board(void){
-
-        }
-};
+#endif
 
 Board::Board()
 {
@@ -21,7 +15,9 @@ Board::Board()
     Piece * w_rook = new Piece;
     w_rook->set_color(Piece::Color::White);
     w_rook->set_piece_type(Piece::Piece_type::Rook);
-    Piece * w_knight = new Piece(Piece::Piece_type::Knight, Piece::Color::White);
+    Piece * w_knight = new Piece;
+    w_rook->set_color(Piece::Color::White);
+    w_rook->set_piece_type(Piece::Piece_type::Knight);
     Piece * w_bishop = new Piece(Piece::Piece_type::Bishop, Piece::Color::White);
     Piece * w_queen = new Piece(Piece::Piece_type::Queen, Piece::Color::White);
     Piece * w_king = new Piece(Piece::Piece_type::King, Piece::Color::White);

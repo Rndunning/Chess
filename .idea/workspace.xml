@@ -12,17 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c54cc112-98d5-4461-923b-016cc53f266c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chess_class_piece.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess_class_board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_class_board.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess_class_board.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_class_board.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess_class_piece.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_class_piece.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess_main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Chess.dir/Chess_class_board.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Chess.dir/Chess_class_board.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Chess.dir/Chess_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Chess.dir/Chess_main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Chess" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Chess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Chess.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Chess.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess_class_piece.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_class_piece.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,13 +102,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5765" />
-          <entry key="h" value="473" />
+          <entry key="cpp" value="5989" />
+          <entry key="h" value="1058" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="6238" />
+          <entry key="ObjectiveC" value="7047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -157,11 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chess_class_board.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -169,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess_class_board.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -178,15 +168,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess_class_piece.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess_class_piece.h">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -213,8 +207,9 @@
         <option value="$PROJECT_DIR$/../Chess - Copy/Chess_main.cpp" />
         <option value="$PROJECT_DIR$/Chess_main.cpp" />
         <option value="$PROJECT_DIR$/Chess_main.h" />
-        <option value="$PROJECT_DIR$/Chess_class_piece.cpp" />
+        <option value="$PROJECT_DIR$/Chess_class_piece.h" />
         <option value="$PROJECT_DIR$/Chess_class_board.h" />
+        <option value="$PROJECT_DIR$/Chess_class_piece.cpp" />
         <option value="$PROJECT_DIR$/Chess_class_board.cpp" />
       </list>
     </option>
@@ -305,12 +300,12 @@
       <workItem from="1534561110194" duration="6159000" />
       <workItem from="1535833753788" duration="7278000" />
       <workItem from="1536174753113" duration="6901000" />
-      <workItem from="1536960736716" duration="2762000" />
+      <workItem from="1536960736716" duration="3274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41847000" />
+    <option name="totallyTimeSpent" value="42359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="452" y="0" width="1091" height="840" extended-state="0" />
@@ -436,30 +431,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chess_class_piece.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess_class_piece.cpp">
+    <entry file="file://$PROJECT_DIR$/Chess_class_board.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chess_class_board.h">
+    <entry file="file://$PROJECT_DIR$/Chess_class_piece.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess_class_piece.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chess_class_board.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>

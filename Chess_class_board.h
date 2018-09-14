@@ -6,6 +6,11 @@
 #define CHESS_CHESS_CLASS_BOARD_H
 #endif //CHESS_CHESS_CLASS_BOARD_H
 
+#ifndef IOSTREAM
+#define IOSTREAM
+#include <iostream>
+#endif
+
 #ifndef CHESS_CLASS_PIECE_H
 #define CHESS_CLASS_PIECE_H
 #include "Chess_class_piece.h"
