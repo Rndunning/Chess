@@ -4,15 +4,15 @@
 CMakeFiles/Chess.dir/Chess_class_board.cpp.o
  /mnt/a/Programs/C++/Chess/Chess_class_board.cpp
  /mnt/a/Programs/C++/Chess/Chess_class_board.h
- /mnt/a/Programs/C++/Chess/Chess_class_piece.cpp
+ /mnt/a/Programs/C++/Chess/Chess_class_piece.h
 CMakeFiles/Chess.dir/Chess_class_move.cpp.o
  /mnt/a/Programs/C++/Chess/Chess_class_move.cpp
  /mnt/a/Programs/C++/Chess/Chess_class_move.h
 CMakeFiles/Chess.dir/Chess_class_piece.cpp.o
  /mnt/a/Programs/C++/Chess/Chess_class_piece.cpp
+ /mnt/a/Programs/C++/Chess/Chess_class_piece.h
 CMakeFiles/Chess.dir/Chess_main.cpp.o
- /mnt/a/Programs/C++/Chess/Chess_class_board.cpp
  /mnt/a/Programs/C++/Chess/Chess_class_board.h
- /mnt/a/Programs/C++/Chess/Chess_class_piece.cpp
+ /mnt/a/Programs/C++/Chess/Chess_class_piece.h
  /mnt/a/Programs/C++/Chess/Chess_main.cpp
  /mnt/a/Programs/C++/Chess/Chess_main.h

@@ -7,14 +7,14 @@
 #IncludeRegexTransform: 
 
 /mnt/a/Programs/C++/Chess/Chess_class_board.cpp
-iostream
--
-Chess_class_piece.cpp
-/mnt/a/Programs/C++/Chess/Chess_class_piece.cpp
 Chess_class_board.h
 /mnt/a/Programs/C++/Chess/Chess_class_board.h
 
 /mnt/a/Programs/C++/Chess/Chess_class_board.h
+iostream
+-
+Chess_class_piece.h
+/mnt/a/Programs/C++/Chess/Chess_class_piece.h
 
 /mnt/a/Programs/C++/Chess/Chess_class_move.cpp
 Chess_class_move.h
@@ -23,20 +23,20 @@ Chess_class_move.h
 /mnt/a/Programs/C++/Chess/Chess_class_move.h
 
 /mnt/a/Programs/C++/Chess/Chess_class_piece.cpp
+Chess_class_piece.h
+/mnt/a/Programs/C++/Chess/Chess_class_piece.h
+
+/mnt/a/Programs/C++/Chess/Chess_class_piece.h
 string
 -
 
 /mnt/a/Programs/C++/Chess/Chess_main.cpp
-iostream
--
-string
--
-array
--
 Chess_main.h
 /mnt/a/Programs/C++/Chess/Chess_main.h
-Chess_class_board.cpp
-/mnt/a/Programs/C++/Chess/Chess_class_board.cpp
 
 /mnt/a/Programs/C++/Chess/Chess_main.h
+Chess_class_piece.h
+/mnt/a/Programs/C++/Chess/Chess_class_piece.h
+Chess_class_board.h
+/mnt/a/Programs/C++/Chess/Chess_class_board.h
 

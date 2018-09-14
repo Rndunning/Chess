@@ -26,7 +26,7 @@ class Piece
         Color m_color;
         bool m_moved;
     public:
-        Piece();
+        Piece(Piece_type type=Piece_type::Pawn, Color color=Color::White);
         ~Piece();
         void set_piece_type(Piece_type new_type) { m_type = new_type; }
         void set_color(Color new_color) { m_color = new_color;}

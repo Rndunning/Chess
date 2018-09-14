@@ -16,22 +16,37 @@ Board::Board()
     w_rook->set_color(Piece::Color::White);
     w_rook->set_piece_type(Piece::Piece_type::Rook);
     Piece * w_knight = new Piece;
-    w_rook->set_color(Piece::Color::White);
-    w_rook->set_piece_type(Piece::Piece_type::Knight);
-    Piece * w_bishop = new Piece(Piece::Piece_type::Bishop, Piece::Color::White);
-    Piece * w_queen = new Piece(Piece::Piece_type::Queen, Piece::Color::White);
-    Piece * w_king = new Piece(Piece::Piece_type::King, Piece::Color::White);
+    w_knight->set_color(Piece::Color::White);
+    w_knight->set_piece_type(Piece::Piece_type::Knight);
+    Piece * w_bishop = new Piece;
+    w_bishop->set_color(Piece::Color::White);
+    w_bishop->set_piece_type(Piece::Piece_type::Bishop);
+    Piece * w_queen = new Piece;
+    w_queen->set_color(Piece::Color::White);
+    w_queen->set_piece_type(Piece::Piece_type::Queen);
+    Piece * w_king = new Piece;
+    w_king->set_color(Piece::Color::White);
+    w_king->set_piece_type(Piece::Piece_type::King);
 
-    Piece * b_pawn = new Piece(Piece::Piece_type::Pawn, Piece::Color::Black);
+    Piece * b_pawn = new Piece;
     b_pawn->set_color(Piece::Color::Black);
     b_pawn->set_piece_type(Piece::Piece_type::Pawn);
     Piece * b_rook = new Piece(Piece::Piece_type::Rook, Piece::Color::Black);
     b_rook->set_color(Piece::Color::Black);
     b_rook->set_piece_type(Piece::Piece_type::Rook);
-    Piece * b_knight = new Piece(Piece::Piece_type::Knight, Piece::Color::Black);
+    Piece * b_knight = new Piece;
+    b_knight->set_color(Piece::Color::Black);
+    b_knight->set_piece_type(Piece::Piece_type::Knight);
     Piece * b_bishop = new Piece(Piece::Piece_type::Bishop, Piece::Color::Black);
+    b_bishop->set_color(Piece::Color::Black);
+    b_bishop->set_piece_type(Piece::Piece_type::Bishop);
     Piece * b_queen = new Piece(Piece::Piece_type::Queen, Piece::Color::Black);
-    Piece * b_king = new Piece(Piece::Piece_type::King, Piece::Color::Black);
+    b_queen->set_color(Piece::Color::Black);
+    b_queen->set_piece_type(Piece::Piece_type::Queen);
+    Piece * b_king = new Piece;
+    b_king->set_color(Piece::Color::Black);
+    b_king->set_piece_type(Piece::Piece_type::King);
+
     for(int i = A2; i < A3; i++){
         m_chess_board[i] = w_pawn;
     }
@@ -53,7 +68,6 @@ Board::Board()
 
 Board::~Board()
 {
-
 }
 
 void Board::print_row(int row_index)

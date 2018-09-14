@@ -7,6 +7,12 @@
 #include "Chess_class_piece.h"
 #endif
 
+Piece::Piece(Piece_type type, Color color)
+{
+    m_type = type;
+    m_color = color;
+    m_moved = false;
+}
 std::string Piece::get_piece_string()
 {
     std::string piece_type;
@@ -23,7 +29,7 @@ std::string Piece::get_piece_string()
     } else if(m_type == Piece_type::Rook){
         piece_type = "R";
     } else if(m_type == Piece_type::Knight){
-        piece_type = "K";
+        piece_type = "N";
     } else if(m_type == Piece_type::Bishop){
         piece_type = "B";
     } else if(m_type == Piece_type::Queen){

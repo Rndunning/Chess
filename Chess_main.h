@@ -11,6 +11,11 @@
 #include "Chess_class_piece.h"
 #endif
 
+#ifndef CHESS_CLASS_BOARD_H
+#define CHESS_CLASS_BOARD_H
+#include "Chess_class_board.h"
+#endif
+
 
 // Function Declerations
 
