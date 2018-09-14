@@ -38,4 +38,5 @@ class Board
         ~Board();
         void print_row(int row_index);
         void display_board(void);
+        void basic_move(int current_location, int new_location);
 };
