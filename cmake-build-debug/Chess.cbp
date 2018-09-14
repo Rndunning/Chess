@@ -99,6 +99,9 @@
 		<Unit filename="/mnt/a/Programs/C++/Chess/Chess_class_piece.cpp">
 			<Option target="Chess"/>
 		</Unit>
+		<Unit filename="/mnt/a/Programs/C++/Chess/Chess_class_piece.h">
+			<Option target="Chess"/>
+		</Unit>
 		<Unit filename="/mnt/a/Programs/C++/Chess/Chess_main.cpp">
 			<Option target="Chess"/>
 		</Unit>

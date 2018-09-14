@@ -26,24 +26,16 @@ class Piece
             Color m_color = team;
             m_moved = false;
         }
-        Piece(char t='P', char c='w'){};
-        Piece_type get_piece_type()
-        {
-            return m_type;
-        }
-        Color get_piece_color()
-        {
-            return m_color;
-        }
-        bool has_moved()
-        {
-            return m_moved;
-        }
-        void get_piece_string(std::string &piece)
+        void set_piece_type(Piece_type new_type) { m_type = new_type; }
+        Piece_type get_piece_type() { return m_type; }
+        void set_color(Color new_color) { m_color = new_color; }
+        Color get_piece_color() { return m_color; }
+        bool has_moved() { return m_moved; }
+        std::string get_piece_string(void)
         {
             std::string piece_type;
             std::string color;
-
+            std::string piece;
             if(m_color == Color::White){
                 color = "W";
             } else {
@@ -64,6 +56,7 @@ class Piece
                 piece_type = "K";
             }
             piece = color + piece_type;
-            return;
+            return piece;
         }
 };
+

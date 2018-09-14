@@ -4,8 +4,12 @@
 
 #ifndef CHESS_CHESS_CLASS_BOARD_H
 #define CHESS_CHESS_CLASS_BOARD_H
-
 #endif //CHESS_CHESS_CLASS_BOARD_H
+
+#ifndef CHESS_CLASS_PIECE_H
+#define CHESS_CLASS_PIECE_H
+#include "Chess_class_piece.h"
+#endif
 
 enum Board_space
 {
@@ -18,4 +22,15 @@ enum Board_space
     A2 = 8, B2 = 9, C2 = 10, D2 = 11, E2 = 12, F2 = 13, G2 = 14, H2 = 15,
     A1 = 0, B1 = 1, C1 = 2, D1 = 3, E1 = 4, F1 = 5, G1 = 6, H1 = 7
 
+};
+
+class Board
+{
+    private:
+        Piece *m_chess_board[64] = {nullptr};
+    public:
+        Board();
+        ~Board();
+        void print_row(int row_index);
+        void display_board(void);
 };
