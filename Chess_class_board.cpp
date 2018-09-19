@@ -97,4 +97,5 @@ void Board::display_board(void)
 void Board::basic_move(int current_location, int new_location)
 {
     m_chess_board[new_location] = m_chess_board[current_location];
+    m_chess_board[current_location] = NULL;
 }
